@@ -40,7 +40,6 @@ bst_t *bst_insert(bst_t **tree, int value)
 
 			new = binary_tree_node(curr, value);
 			if (new == NULL)
-				B
 				return (NULL);
 			return (curr->right = new);
 		}
